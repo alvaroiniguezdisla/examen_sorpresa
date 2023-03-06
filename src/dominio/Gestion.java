@@ -1,7 +1,7 @@
 package dominio;
 import java.util.ArrayList;
 import java.util.stream.Stream;
-
+import java.util.stream.Collectors;
 public class Gestion {
     public Gestion add(Cliente cliente, ArrayList<Cliente> clientes) {
        clientes.add(cliente);
@@ -19,7 +19,7 @@ public class Gestion {
         Stream.iterate(0,i->i+1).limit(clientes.size()).map(i->clientes.get(i)).filter(i->i.getDNI().equals(DNI)).forEach(i->i.setApellido(apellido));
     }
     public static void eliminar(String DNI,ArrayList<Cliente> clientes){
-        Stream.iterate(0,i->i+1).limit(clientes.size()).map(i->clientes.get(i)).filter(i->i.getDNI().equals(DNI)).map(i->clientes.remove(i));
+        Stream.iterate(0,i->i+1).limit(clientes.size()).map(i->clientes.get(i)).filter(i->!i.getDNI().equals(DNI)).collect(Collectors.toCollection(ArrayList::new));
     }
 
 }
