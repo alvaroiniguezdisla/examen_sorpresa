@@ -8,12 +8,13 @@ public class Principal {
         clientes.add(new Cliente("05458720C","Alejandro","Lillo"));
         clientes.add(new Cliente("46567786S","Daniel","Lillo"));
         clientes.add(new Cliente("87654321B","Juan","Garcia"));
-        System.out.println(Gestion.listar(clientes));
-        System.out.println(Gestion.consultar("46567786S",clientes));
-        Gestion.modificarnombreapellido("46567786S","Daniel","Lillo",clientes);
-        System.out.println(Gestion.listar(clientes));
-        Gestion.eliminar("46567786S",clientes);
-        System.out.println(Gestion.listar(clientes));
+        Gestion gestion = new Gestion();
+        System.out.println(gestion.listar(clientes));
+        System.out.println(gestion.consultar("46567786S",clientes));
+        gestion.modificarnombreapellido("46567786S","Daniel","Lillo",clientes);
+        System.out.println(gestion.listar(clientes));
+        gestion.eliminar("46567786S",clientes);
+        System.out.println(gestion.listar(clientes));
 
 
 

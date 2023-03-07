@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82160610-7c9a-49ef-9982-e87bd8a4ed2a" name="Changes" comment="ej terminado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aplicacion/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aplicacion/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dominio/Gestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dominio/Gestion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,18 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Usuario/workspace/progra2/ejerciciosprogra2/ejercicio14/examen_sorpresa",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +55,9 @@
       <option name="presentableId" value="Default" />
       <updated>1677841554888</updated>
       <workItem from="1677841556425" duration="6351000" />
-      <workItem from="1678112561970" duration="1890000" />
+      <workItem from="1678112561970" duration="2118000" />
+      <workItem from="1678174562641" duration="540000" />
+      <workItem from="1678177117646" duration="1405000" />
     </task>
     <task id="LOCAL-00001" summary="ej terminado">
       <created>1678005197818</created>
@@ -62,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678005197818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ej terminado">
+      <created>1678115314577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678115314577</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
